@@ -20,7 +20,7 @@ pip3 install requests
 
 ```bash
 python3 deepaffects_summary_api.py --input_file_path=./sample/Podcast.txt --output_folder=./output --model=iamus
-python3 deepaffects_summary_api.py -i ./sample/Podcast.txt -o ./output --m iamus
+python3 deepaffects_summary_api.py -i ./sample/Podcast.txt -o ./output -m iamus
 ```
 
 
