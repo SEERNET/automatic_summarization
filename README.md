@@ -1,9 +1,24 @@
-# automatic_summarization
+# Automatic_summarization
 Automatic Summary of multi speaker virtual meetings, podcasts, phone calls. 
 
+## Overview
+The Conversation Summarization API allows you to summarize the meaning of an audio transcript (speaker tagged), extracting its most relevant part of the conversation. The API provides two types of summaries:
+Abstractive - Text summarization aims to understand the meaning behind a text and communicate it in newly generated sentences.
 
 
+## Using
 
+The Summarization API can be used in Python 3
+
+
+### Requirements
+
+pip3 install requests
+
+
+```bash
+python3 deepaffects_summary_api.py --input_file_path=./sample/Podcast.txt --output_folder=./output --model=iamus
+```
 
 
 
